@@ -1,9 +1,8 @@
 # Site settings
 title: Juan Garrido Cobo
 author:
-  name: Juan
-  email: your-email@domain.com
-description: "Great site about Jekyll on GH-Pages."
+  name: Juan Garrido
+description: "Garrido GH-Pages."
 
 # Build settings
 remote_theme: jekyll/minima
