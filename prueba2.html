@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Examen 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            background-color: #666;
+            padding: 5px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        nav {
+            width: 100%;
+            height: 100%;
+            background: #ccc;
+            padding: 20px;
+        }
+
+
+        ul li {
+            display: inline;
+            background-color: azure;
+            padding: 10pt;
+            border: 1px solid blue;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        article {
+            padding: 20px;
+            width: 100%;
+            background-color: #f1f1f1;
+            height: auto;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        footer a{ text-decoration: underline;}
+
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        td {
+            background-color: green;
+        }
+
+        img {
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            padding: 10px;
+        }
+
+        p {
+            margin-left: 100px;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Ciudades</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#article1">London</a></li>
+                <li><a href="#article2">Madrid</a></li>
+                <li><a href="#article3">Barcelona</a></li>
+            </ul>
+        </nav>
+
+        <article id="article1">
+            <h1>London</h1>
+            <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a
+                metropolitan area of over 13 million inhabitants.</p>
+            <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going
+                back to its founding by the Romans, who named it Londinium.</p>
+        </article>
+        <hr />
+        <article id="article2">
+            <h1>Madrid</h1>
+            <p>Madrid es un municipio y una ciudad de España. La localidad, con categoría histórica de villa,9​ es la
+                capital del Estado10​ y de la Comunidad de Madrid. En su término municipal, el más poblado de España,
+                están empadronadas 3 280 782 personas (INE 2022), constituyéndose como la segunda ciudad más poblada de
+                la Unión Europea, así como su área metropolitana, con 6 779 888 habitantes empadronados</p>
+        </article>
+        <br />
+        <article id="article3">
+            <h1>Barcelona</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Escudo_de_Barcelona.svg"
+                alt="Escudo barcelona" />
+            <p>Barcelona es una ciudad española, capital de la comunidad autónoma de Cataluña, de la provincia homónima
+                y de la comarca del Barcelonés. Con una población de 1 660 435 habitantes a enero de 2023,es la
+                segunda ciudad más poblada de España y de la península ibérica después de Madrid, y la décima de la
+                Unión Europea. Su ámbito metropolitanonota cuenta con una población de 5 575 204 habitantes según
+                Eurostat,siendo así la quinta aglomeración urbana de mayor población y la más densamente poblada de
+                la Unión Europea.</p>
+
+        </article>
+    </section>
+    <br />
+    <table>
+        <tr>
+            <td><a href="#article1">London</a> </td>
+            <td><a href="#article2">Madrid</a></td>
+            <td><a href="#article3">Barcelona</a></td>
+        </tr>
+    </table>
+    <footer>
+        <p><a href="https://www.w3schools.com">Mi mejor cualidad es codificar</a> </p>
+    </footer>
+
+</body>
+
+</html>
