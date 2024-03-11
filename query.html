@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Query String Values</title>
+</head>
+<body>
+    <script>
+        // Get the query string from the URL
+        const queryString = window.location.search;
+        
+        // Create a URLSearchParams object from the query string
+        const params = new URLSearchParams(queryString);
+        
+        // Iterate over the query string parameters
+        params.forEach((value, key) => {
+            // Print the parameter key and value
+            document.write(`<p>${key}: ${value}</p>`);
+        });
+    </script>
+</body>
+</html>
